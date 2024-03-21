@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta name="description" content="YTÜ Front End Kursu">
+    <meta name="keywords" content="YTÜ, Front End, web development">
+    <meta name="author" content="Ömer Faruk Aydın">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kurs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="flex-col">
+    <!-- Navbar -->
+    <div class="w-full h-10 bg-dp-400">
+        <nav class="container mx-auto flex justify-between">
+            <h1 class="font-bold">Front-End Kursu</h1>
+
+            <!-- Sayfa Linkleri -->
+            <ul class="flex">
+                <li><a href="#" class="px-2 hover:bg-dp-300 hover:rounded inline-block h-8">Ana Sayfa</a></li>
+                <li><a href="#" class="px-2 hover:bg-dp-300 hover:rounded inline-block h-8">Eğitimler</a></li>
+                <li><a href="#" class="px-2 hover:bg-dp-300 hover:rounded inline-block h-8">Hakkımda</a></li>
+
+                
+                <button onclick="darkMode()" class="flex max-w-[138px] min-w-[138px] justify-center hover:rounded hover:bg-dp-200">
+                    <svg class="mr-3 fill-current text-white" xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"/></svg>
+                    <span class="hidden dark:inline">Açık Mod</span>
+                    <span class="inline dark:hidden">Koyu Mod</span>
+                </button>
+            </ul>
+        </nav>
+    </div>
+    
+    
+
+    <main class="flex">
+        <aside class="flex-row divide-y-2 overflow-scroll w-[200px] h-[900px]">
+            <section>
+                <h3 class="font-bold">HTML</h3>
+                <ul class="ml-3 flex-row divide-y text-center">
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Giriş</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Gerekli Ortamların Kurulması</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Media</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Footer Etiketi</a></li>
+                </ul>
+            </section>
+            <section>
+                <h3 class="font-bold">CSS</h3>
+                <ul class="ml-3 flex-row divide-y text-center">
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Giriş</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Renkler</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Flexbox</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Grid</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Responsive</a></li>
+                </ul>
+            </section>
+            <section>
+                <h3 class="font-bold">Tailwind CSS</h3>
+                <ul class="ml-3 flex-row divide-y text-center">
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Giriş</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Renkler</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Flexbox</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Grid</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Responsive</a></li>
+                </ul>
+            </section>
+            <section>
+                <h3 class="font-bold">Javascript</h3>
+                <ul class="ml-3 flex-row divide-y text-center">
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Giriş</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Renkler</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Flexbox</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Grid</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Responsive</a></li>
+                </ul>
+            </section>
+            <section>
+                <h3 class="font-bold">React</h3>
+                <ul class="ml-3 flex-row divide-y text-center">
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Giriş</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Renkler</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Flexbox</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Grid</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Responsive</a></li>
+                </ul>
+            </section>
+            <section>
+                <h3 class="font-bold">Redux</h3>
+                <ul class="ml-3 flex-row divide-y text-center">
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Giriş</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Renkler</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Flexbox</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Grid</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Responsive</a></li>
+                </ul>
+            </section>
+            <section>
+                <h3 class="font-bold">React Native</h3>
+                <ul class="ml-3 flex-row divide-y text-center">
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Giriş</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Renkler</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Flexbox</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Grid</a></li>
+                    <li><a class="text-sm hover:bg-dp-400 inline-block min-h-6 min-w-[138px] px-2 rounded" href="#">Responsive</a></li>
+                </ul>
+            </section>
+        </aside>
+        
+        <section class="ml-10 mt-4 flex-col">
+
+            <h2 class="font-bold">Gerekli Ortamların Kurulması</h2>
+            
+            <div class="mt-3 min-w-full max-h-[550px] flex divide-x">
+                <iframe class="mx-5" width="720" height="480" src="https://www.youtube.com/embed/B-s71n0dHUk?si=djTpS_emBR6apXFR" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <ul class="divide-y">
+                    <h4 class="font-bold">Referans Linkler</h4>
+                    <li><a href="https://code.visualstudio.com/">VS Code İndirme Linki</a></li>
+                    <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+                    <li><a href="https://colorhunt.co/">Color Picker</a></li>
+                </ul>
+            </div>
+            <div class="mx-5 mt-5 min-w-[500px] max-w-[720px] max-h-[350px] text-justify overflow-scroll">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat velit consequuntur laborum excepturi numquam amet fuga assumenda odio molestiae perferendis ad necessitatibus aut delectus, illum exercitationem ipsa cum magnam, nulla omnis inventore aliquam ipsum! Quis, dolor. Consequuntur fugiat eius adipisci neque ad asperiores assumenda sit impedit eligendi, voluptate, incidunt fugit sequi voluptatibus similique aliquid nostrum praesentium, id rem sapiente aliquam deserunt tenetur dolor fuga. Eos sequi animi sed dolore, in ex itaque unde ut quis quibusdam culpa illum assumenda. Rerum, quos dicta. Nulla consequatur facilis amet sunt similique. Incidunt omnis unde ducimus, quo at odit temporibus error laudantium molestiae consequatur deleniti, dolor rerum sequi magni eveniet doloremque laborum harum sed, provident quasi mollitia alias repellendus nihil. Asperiores esse minima reiciendis architecto officia quibusdam, reprehenderit, corrupti commodi explicabo quidem, omnis voluptatum. Recusandae sed, nobis itaque dolores voluptates numquam velit id a, praesentium eaque sint aperiam ipsum? Similique laborum accusantium soluta ea dolor assumenda facilis? Quo sed repellat odit officia eligendi adipisci soluta incidunt deleniti. In obcaecati eligendi iure autem! Alias atque ut minus dolores molestias, fuga, optio maxime, voluptates consequuntur eligendi adipisci! Nobis voluptas quam earum minima laudantium maxime eaque dolorum ipsa dolore consequatur quas labore cumque fuga, vel delectus! Suscipit tempora ut numquam blanditiis tempore pariatur, sint, eos, illum fugiat iste consequatur maxime magnam sapiente soluta quibusdam vero odit ullam? Praesentium accusantium a soluta possimus placeat facilis voluptas inventore minus quae veniam nostrum fugiat vitae aperiam similique sunt, culpa, sint maxime, aut ea deserunt ut illum incidunt? Cumque, quos hic?</p>
+            </div>  
+        </section>
+    </main>
+    <script>
+        function darkMode(){
+            document.documentElement.classList.toggle('dark');
+        }
+    </script>
+</body>
+</html>
